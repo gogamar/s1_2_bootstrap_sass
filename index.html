@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S1.2. Bootstrap&SASS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/bootstrap.bundle.min.js" defer></script>
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="bookmark-nav container-fluid py-3 d-flex justify-content-between align-items-center">
+          <a class="navbar-brand" href="#">
+            <img src="/images/logo-bookmark.svg" alt="Logo Bookmark" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-uppercase-spacing ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="#!">Features</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+              <li class="nav-item">
+                <a class="btn btn-secondary text-white nav-uppercase-spacing" href="#!">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Header-->
+      <header class="my-5">
+        <div class="container-fluid mx-0">
+          <div class="row d-flex justify-content-center align-items-center flex-column-reverse flex-lg-row gap-5 gap-lg-0">
+            <div class="header-text col text-center text-lg-start d-flex flex-column gap-4">
+              <div class="d-flex flex-column pt-5 px-3 px-lg-0 pb-0 gap-2 gap-lg-4">
+                <h1>A Simple Bookmark Manager</h1>
+                <p>A clean and simple interface to organize your favourite websites. Open a new browser and see your sites load instantly. Try it for free.</p>
+              </div>
+              <div class="d-flex gap-2 justify-content-center justify-content-lg-start">
+                <a class="btn btn-primary px-4 me-sm-3" href="#">Get it on Chrome</a>
+                <a class="btn btn-lightgrey px-4" href="#!">Get it on Firefox</a>
+              </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-end position-relative pe-5">
+              <div class="background-shape"></div>
+              <img src="/images/illustration-hero.svg" alt="Bookmark Manager Illustration" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>

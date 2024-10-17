@@ -1,0 +1,15 @@
+{
+  "name": "s1_2_bootstrap_sass",
+  "version": "1.0.0",
+  "description": "This project is a responsive web layout based on wireframes, using HTML, Bootstrap, and SASS. It includes a fixed navigation bar, grid-based responsive layout, customized Bootstrap components, and custom styling with SASS.",
+  "scripts": {
+    "build-css": "sass scss/main.scss css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Gordana Marjanovic",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.80.1"
+  }
+}
