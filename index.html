@@ -53,6 +53,7 @@
           </div>
         </div>
       </header>
+
       <!-- Features section-->
       <section class="container-fluid px-0 py-3 py-lg-5">
         <div class="container-fluid m-0 py-lg-5">
@@ -73,6 +74,7 @@
                   <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false"> Easy Sharing </a>
                 </li>
               </ul>
+
               <!-- Tabs -->
               <div class="tab-content row d-flex justify-content-center pt-3" id="bookmarkTabContent">
                 <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
@@ -119,6 +121,7 @@
           </div>
         </div>
       </section>
+
       <!--Download section-->
       <section class="py-5">
         <div class="container-fluid">
@@ -228,6 +231,82 @@
           </div>
         </div>
       </section>
+
+      <!-- Contact section-->
+      <section class="bg-primary py-5">
+        <div class="container px-5">
+          <div class="text-center mb-5">
+            <p class="mb-5 uppercase-spacing text-white">35000+ already joined</p>
+            <h2 class="text-white fw-bolder">Stay up to date with what we're doing</h2>
+          </div>
+          <div class="row d-flex justify-content-center pb-3">
+            <div class="col-lg-6">
+              <form class="needs-validation" novalidate>
+                <div class="d-flex flex-row align-items-start">
+                  <div class="flex-fill me-3 position-relative">
+                    <input type="email" class="form-control" id="emailInput" placeholder="Enter your email address" required />
+                    <div class="invalid-feedback">Whoops, make sure it's an email.</div>
+                  </div>
+                  <button type="submit" class="btn btn-secondary text-white text-nowrap">Contact Us</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer-->
+      <footer class="p-5 d-flex justify-content-between">
+        <div class="container px-5 d-flex justify-content-between align-items-center">
+          <div class="d-flex justify-content-start align-items-center">
+            <a class="navbar-brand" href="#">
+              <img src="/images/logo-bookmark-white.svg" alt="Logo Bookmark" />
+            </a>
+            <ul class="navbar-nav nav-uppercase-spacing d-flex flex-row ms-5">
+              <li class="nav-item">
+                <a class="nav-link text-white mx-3" href="#!">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-3" href="#!">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-3" href="#!">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="social d-flex justify-content-between align-items-center">
+            <a href="https://www.facebook.com" target="_blank" class="social-link">
+              <img src="images/icon-facebook.svg" class="img-fluid h-50" alt="Find us on Facebook" />
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="social-link">
+              <img src="images/icon-twitter.svg" class="img-fluid h-50" alt="Find us on Twitter" />
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
+
+<script>
+  (() => {
+    "use strict";
+
+    const forms = document.querySelectorAll(".needs-validation");
+
+    Array.from(forms).forEach((form) => {
+      form.addEventListener(
+        "submit",
+        (event) => {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+
+          form.classList.add("was-validated");
+        },
+        false
+      );
+    });
+  })();
+</script>
