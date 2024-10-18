@@ -12017,6 +12017,24 @@ h3,
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fa5959'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
+footer {
+  background-color: #242946;
+}
+
+.form-control::placeholder {
+  color: #6c757d;
+  opacity: 0.5;
+}
+
+.social {
+  width: 100px;
+}
+
+.social-link {
+  display: inline-block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
 @media (max-width: 768px) {
   .bookmark-nav {
     padding-left: 3rem !important;

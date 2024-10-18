@@ -44,3 +44,21 @@ This project is a responsive web layout based on wireframes, using HTML, Bootstr
 - **Main Tasks**:
   - Customize Bootstrap's "cards" or create your own CSS classes for custom card design.
   - Ensure everything is responsive.
+
+### Exercise 4: FAQs Section
+
+- **Objective**: Implement a Frequently Asked Questions (FAQs) section.
+- **Main Tasks**:
+  - Use the "Accordion" component and customize the classes to adapt it to the design.
+  - Responsive.
+  - Bootstrap button.
+
+### Exercise 5: Footer Section
+
+- **Objective**: Add a responsive footer section.
+- **Main Tasks**:
+  - Use Bootstrap forms to create the FAQ submission form.
+  - Validate the form using Bootstrap’s form validation:
+    - Display an error message if the email field is empty or not formatted correctly when the newsletter form is submitted.
+  - Implement a footer with buttons styled using the primary color from Exercise 1.
+  - Ensure the footer is responsive across all screen sizes.
