@@ -4,7 +4,9 @@ This project is a responsive web layout based on wireframes, using HTML, Bootstr
 
 ## Project Structure
 
-## Exercise 1: Desktop Layout
+## Exercise 1: Navbar & Header
+
+- **Desktop Layout**:
 
 - **Objective**: Create the desktop layout based on the provided wireframe.
 - **Main Tasks**:
@@ -27,3 +29,10 @@ This project is a responsive web layout based on wireframes, using HTML, Bootstr
     - Modify the grid layout for different screen sizes:
     - Adjust column stacking and layout for tablet and mobile view.
     - Update the color of elements based on screen width (for mobile, tablet, and desktop).
+
+### Exercise 2: Features Section
+
+- **Objective**: Add a "Features" section using Bootstrap grid and components.
+- **Main Tasks**:
+  - Use the responsive grid to organize the text and layout of the features section.
+  - Customize Bootstrap's "tabs" component to match the design.
