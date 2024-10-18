@@ -62,3 +62,9 @@ This project is a responsive web layout based on wireframes, using HTML, Bootstr
     - Display an error message if the email field is empty or not formatted correctly when the newsletter form is submitted.
   - Implement a footer with buttons styled using the primary color from Exercise 1.
   - Ensure the footer is responsive across all screen sizes.
+
+### Exercise 6: Button and Link States
+
+- **Objective**: Update hover and active states for buttons, links, and tabs.
+- **Main Tasks**:
+  - Modify the active states of buttons, links, and tabs to have custom hover and focus effects.
