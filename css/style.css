@@ -11926,13 +11926,28 @@ h3,
   max-width: 100%;
   position: absolute;
   top: 30%;
-  right: 0;
+  background-color: #5265e1;
+  z-index: -1;
+}
+
+.background-shape-left {
+  left: 0;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   width: 70%;
   height: 80%;
-  background-color: #5265e1;
+}
+
+.background-shape-right {
+  right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   border-top-left-radius: 150px;
   border-bottom-left-radius: 150px;
-  z-index: -1;
+  width: 70%;
+  height: 80%;
 }
 
 .bookmark-nav {
@@ -11945,6 +11960,30 @@ h3,
   margin-left: 6rem;
 }
 
+.features .nav-link {
+  letter-spacing: 0.1em;
+}
+
+.features .nav-link {
+  border-bottom: 2px solid lightgrey;
+  padding: 1.2rem;
+  color: lightgrey;
+}
+
+.features .nav-link.active {
+  color: #242946;
+  border-bottom: 2px solid #fa5959;
+  font-weight: 500;
+}
+
+.padding-left-10 {
+  padding-left: 10rem;
+}
+
+.margin-top-10 {
+  margin-top: 10rem;
+}
+
 @media (max-width: 768px) {
   .bookmark-nav {
     padding-left: 3rem !important;
@@ -11952,6 +11991,9 @@ h3,
   }
   .header-text {
     margin-left: 0;
+  }
+  .features .nav-item:first-child {
+    border-top: 2px solid lightgrey;
   }
 }
 
