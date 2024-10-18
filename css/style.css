@@ -11976,12 +11976,9 @@ h3,
   font-weight: 500;
 }
 
-.padding-left-10 {
+.download-cards {
   padding-left: 10rem;
-}
-
-.margin-top-10 {
-  margin-top: 10rem;
+  padding-right: 10rem;
 }
 
 @media (max-width: 768px) {
@@ -11994,6 +11991,10 @@ h3,
   }
   .features .nav-item:first-child {
     border-top: 2px solid lightgrey;
+  }
+  .download-cards {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 

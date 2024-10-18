@@ -34,5 +34,13 @@ This project is a responsive web layout based on wireframes, using HTML, Bootstr
 
 - **Objective**: Add a "Features" section using Bootstrap grid and components.
 - **Main Tasks**:
+
   - Use the responsive grid to organize the text and layout of the features section.
   - Customize Bootstrap's "tabs" component to match the design.
+
+### Exercise 3: Download Section
+
+- **Objective**: Implement the download cards.
+- **Main Tasks**:
+  - Customize Bootstrap's "cards" or create your own CSS classes for custom card design.
+  - Ensure everything is responsive.
