@@ -1,0 +1,55 @@
+footer {
+  background-color: $tertiary;
+}
+
+.form-control::placeholder {
+  color: #6c757d;
+  opacity: 0.5;
+}
+
+.was-validated .form-control:invalid {
+  border: 2px solid $secondary;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.invalid-feedback {
+  font-style: italic;
+  background-color: $secondary;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0.5rem;
+  margin-top: 0;
+  position: absolute;
+}
+
+.email-submit {
+  white-space: nowrap;
+}
+
+.email-submit:hover {
+  background-color: white;
+  color: $secondary !important;
+  border: 1px solid $secondary;
+}
+
+.social-twitter {
+  background-image: url("../images/icon-twitter.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.social-twitter:hover {
+  background-image: url("../images/icon-twitter-hover.svg");
+}
+
+.social-facebook {
+  background-image: url("../images/icon-facebook.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.social-facebook:hover {
+  background-image: url("../images/icon-facebook-hover.svg");
+}

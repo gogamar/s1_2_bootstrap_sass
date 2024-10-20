@@ -1,0 +1,57 @@
+.navbar-nav .nav-item {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #3c3d43;
+}
+
+.nav-uppercase-spacing {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.uppercase-spacing {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.8rem;
+}
+
+.features .nav-link {
+  letter-spacing: 0.1em;
+}
+
+.features .nav-link {
+  border-bottom: 2px solid lightgrey;
+  padding: 1.2rem;
+  color: lightgrey;
+}
+
+.features .nav-link.active {
+  color: $tertiary;
+  border-bottom: 2px solid $secondary;
+  font-weight: 500;
+}
+
+.nav-link {
+  position: relative;
+  color: $primary;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: $secondary !important;
+}
+
+.social-link {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+}

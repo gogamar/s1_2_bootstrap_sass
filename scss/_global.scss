@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #969696;
+}
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  color: $tertiary;
+}
+
+.background-shape {
+  max-width: 100%;
+  position: absolute;
+  top: 30%;
+  background-color: $primary;
+  z-index: -1;
+  width: 70%;
+}
+
+.background-shape-left {
+  left: 0;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 85%;
+}
+
+.background-shape-right {
+  right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+  height: 70%;
+}

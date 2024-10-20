@@ -1,0 +1,26 @@
+.btn {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn-login {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.btn-lightgrey {
+  color: #5e5d5d;
+  border: 1px solid #f7f7f7;
+  border-radius: 0.3rem;
+  background-color: #f7f7f7;
+}
+
+.btn-lightgrey:hover {
+  background-color: white;
+  border: 1px solid #9e9e9e;
+  color: #424242;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: $primary;
+}

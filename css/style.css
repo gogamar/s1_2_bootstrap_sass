@@ -11862,26 +11862,40 @@ h3,
   color: #242946;
 }
 
-.sticky-top {
-  background: #fff;
+.background-shape {
+  max-width: 100%;
+  position: absolute;
+  top: 30%;
+  background-color: #5265e1;
+  z-index: -1;
+  width: 70%;
+}
+
+.background-shape-left {
+  left: 0;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 85%;
+}
+
+.background-shape-right {
+  right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+  height: 70%;
 }
 
 .navbar-nav .nav-item {
-  margin-right: 20px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .navbar-nav .nav-link {
   color: #3c3d43;
-}
-
-.bookmark-nav {
-  padding-left: 6rem !important;
-  padding-right: 6rem !important;
-  margin: 0 !important;
-}
-
-.header-text {
-  margin-left: 6rem;
 }
 
 .nav-uppercase-spacing {
@@ -11895,66 +11909,6 @@ h3,
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 0.8rem;
-}
-
-.login {
-  background-color: #fa5959;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.btn {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.btn-lightgrey {
-  color: #5e5d5d;
-  border: 1px solid #f7f7f7;
-  border-radius: 0.3rem;
-  background-color: #f7f7f7;
-  padding: 0.5rem 1rem;
-}
-
-.btn-lightgrey:hover {
-  background-color: white;
-  border: 1px solid #9e9e9e;
-}
-
-.btn-primary:hover {
-  background-color: white;
-  color: #5265e1;
-}
-
-.background-shape {
-  max-width: 100%;
-  position: absolute;
-  top: 30%;
-  background-color: #5265e1;
-  z-index: -1;
-}
-
-.background-shape-left {
-  left: 0;
-  border-top-right-radius: 150px;
-  border-bottom-right-radius: 150px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  width: 70%;
-  height: 80%;
-}
-
-.background-shape-right {
-  right: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-top-left-radius: 150px;
-  border-bottom-left-radius: 150px;
-  width: 70%;
-  height: 80%;
 }
 
 .features .nav-link {
@@ -11973,6 +11927,53 @@ h3,
   font-weight: 500;
 }
 
+.nav-link {
+  position: relative;
+  color: #5265e1;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fa5959 !important;
+}
+
+.social-link {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn-login {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.btn-lightgrey {
+  color: #5e5d5d;
+  border: 1px solid #f7f7f7;
+  border-radius: 0.3rem;
+  background-color: #f7f7f7;
+}
+
+.btn-lightgrey:hover {
+  background-color: white;
+  border: 1px solid #9e9e9e;
+  color: #424242;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #5265e1;
+}
+
 .download-cards {
   padding-left: 10rem;
   padding-right: 10rem;
@@ -11980,6 +11981,17 @@ h3,
 
 .download-cards p {
   color: #969696;
+}
+
+.tab-pane {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 0.5s ease;
+}
+
+.tab-pane.active {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .accordion .accordion-item {
@@ -11991,11 +12003,17 @@ h3,
 
 .accordion-body {
   color: #969696;
+  padding-left: 0;
 }
 
 :focus {
   outline: 0 !important;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.accordion-button {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .accordion-button:hover {
@@ -12050,37 +12068,6 @@ footer {
   border: 1px solid #fa5959;
 }
 
-.tab-pane {
-  opacity: 0;
-  transform: translateX(-100px);
-  transition: all 0.5s ease;
-}
-
-.tab-pane.active {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.nav-link {
-  position: relative;
-  color: #5265e1;
-  transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #fa5959 !important;
-}
-
-.social-link {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-}
-
-.social-link:hover {
-  transform: scale(1.1);
-}
-
 .social-twitter {
   background-image: url("../images/icon-twitter.svg");
   background-size: contain;
@@ -12102,13 +12089,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .bookmark-nav {
-    padding-left: 3rem !important;
-    padding-right: 3rem !important;
-  }
-  .header-text {
-    margin-left: 0;
-  }
   .features .nav-item:first-child {
     border-top: 2px solid lightgrey;
   }
