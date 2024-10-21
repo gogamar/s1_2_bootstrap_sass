@@ -11851,6 +11851,8 @@ textarea.form-control-lg {
 body {
   font-family: "Rubik", sans-serif;
   color: #969696;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 h1, .h1,
